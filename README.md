@@ -1,9 +1,9 @@
 # Comment excuter le projet
 1 - Clonez le projet depuis github
 
-# -----------------------------------------------------#
-# ---------------- Lancez le backend ------------------#
-# -----------------------------------------------------#
+
+# Lancez le backend 
+
 
 2 - Assurez-vous que vous avez python installé sur votre poste
 
@@ -14,7 +14,9 @@
 5 - Activez votre enrironnement virtuel
 
 6 - Installez les dépendances en tapant la commande ci-dessous
-    > pip install -r requirements.txt
+```
+ pip install -r requirements.txt
+```
 
 7 - Assurez-vous que vous avez postgresql installé sur votre poste
 
@@ -37,18 +39,23 @@
         }
 
 10 - Faites les migrations en tapant les commandes ci-dessous
-    > python manage.py makemigrations
-    > python manage.py migrate
+```
+ python manage.py makemigrations
+ python manage.py migrate
+```
 
 11 - Lancez le serveur en tapant la commande ci-dessous
-    > python manage.py runserver
+```
+ python manage.py runserver
+```
 
 POUR VOIR LA DOCUMENTATION DE L'API, TAPEZ :
-    http://127.0.0.1:8000/swagger/
+```
+ http://127.0.0.1:8000/swagger/
+```
 
-# ------------------------------------------------------#
-# --------------- Lancez le frontend -------------------#
-# ------------------------------------------------------#
+# Lancez le frontend 
+
 
 1 - Assurez-vous que vous avez nodejs installé sur votre poste
 
@@ -59,12 +66,20 @@ POUR VOIR LA DOCUMENTATION DE L'API, TAPEZ :
 4 - Placez vous dans le dossier To-Do-List/frontend
 
 5 - Tapez la commande ci-dessous
-    > npm install
+```
+ npm install
+```
 
 6 - lanez le serveur
-    > npm run serve
+```
+ npm run serve
+```
+
+
 7 - Dans votre navigateur, tapez:
-    http://localhost:8080/
+```
+ http://localhost:8080/
+```
 
 ### Compiles and minifies for production
 ```
